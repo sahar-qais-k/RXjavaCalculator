@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
                 binding.viewText.text = output.toString()
             },
             { e ->
-                Log.i("ggg", "on error")
                  Toast.makeText(applicationContext, "enter valid input", Toast.LENGTH_LONG).show()
             }
         )
